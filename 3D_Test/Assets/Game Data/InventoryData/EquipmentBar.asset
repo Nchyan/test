@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a82166d237c32f498c4f7bf33b8bb37, type: 3}
+  m_Name: EquipmentBar
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemData: {fileID: 11400000, guid: dfdcd9bab4ee0654c9f0f56f5eb873de, type: 2}
+    amount: 1
+  - itemData: {fileID: 0}
+    amount: 0

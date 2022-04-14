@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c049165829be14c9e47faf2a42cddb, type: 3}
+  m_Name: HeroStart
+  m_EditorClassIdentifier: 
+  dialoguePieceList:
+  - ID: 1
+    img: {fileID: 21300000, guid: 391f97da05cf45240a8ecdec752cd9be, type: 3}
+    note: 
+    text: "\u8981\u6765\u53D7\u6298\u78E8\u5417\uFF1F"
+    quest: {fileID: 11400000, guid: 37e76121b6860ef48ad43565733e1705, type: 2}
+    optionList:
+    - index: 
+      text: "\u4E0D\u9519"
+      takeQuest: 1
+    - index: 
+      text: "\u6253\u54A9"
+      takeQuest: 0
